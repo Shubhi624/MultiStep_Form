@@ -1,0 +1,8 @@
+.star {
+    color: #ddd; /* Default color for empty star */
+  }
+  
+  .star-filled {
+    color: gold; /* Color for filled star */
+  }
+  
