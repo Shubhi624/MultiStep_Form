@@ -25,29 +25,29 @@ const Fourth = () => {
             <div className="container d-flex flex-column align-items-center mt-4">
                 <h1 className='mb-4 fs-1 fw-bold'>What is your math comfort level?</h1>
                 <p className='mb-4 fs-5'>Choose the highest level you feel confident in - you can always adjust later.</p>
-                <div className="d-flex">
-                    <div className={select === 1 ? 'border-primary py-3 m-2 card' : `py-3 m-2 card`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(1)}>
+                <div className="d-flex flex-wrap">
+                    <div className={`py-3 m-2 card ${select ===1? 'border-primary':''}`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(1)}>
                         <div className="d-flex flex-column align-items-center justify-content-center card-body">
                             <Tex2SVG display="inline" latex="\\5 \times \frac{1}{2} = ?\\" />
                             <p className="fw-bold mt-4">Arithmetic</p>
                             <p>Introductory</p>
                         </div>
                     </div>
-                    <div className={select === 2 ? 'border-primary py-3 m-2 card' : `py-3 m-2 card`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(2)}>
+                    <div className={`py-3 m-2 card ${select ===2? 'border-primary':''}`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(2)}>
                         <div className="d-flex flex-column align-items-center justify-content-center card-body">
                             <div className='mt-4'><Tex2SVG display="inline" latex="3x + 5 = 4" /></div>
                             <p className="fw-bold mt-4">Basic Algebra</p>
                             <p>Foundational</p>
                         </div>
                     </div>
-                    <div className={select === 3 ? 'border-primary py-3 m-2 card' : `py-3 m-2 card`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(3)}>
+                    <div className={`py-3 m-2 card ${select ===3? 'border-primary':''}`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(3)}>
                         <div className="d-flex flex-column align-items-center justify-content-center card-body">
                             <Tex2SVG display="inline" latex="\\x = {-b \pm \sqrt{b^2-4ac} \over 2a}\\" />
                             <p className="fw-bold mt-4">Intermediate Algebra</p>
                             <p>Intermediate</p>
                         </div>
                     </div>
-                    <div className={select === 4 ? 'border-primary py-3 m-2 card' : `py-3 m-2 card`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(4)}>
+                    <div className={`py-3 m-2 card ${select ===4? 'border-primary':''}`} style={{ cursor: 'pointer', width: '14rem' }} onClick={() => handleSelect(4)}>
                         <div className="d-flex flex-column align-items-center justify-content-center card-body">
                             <Tex2SVG display="block" latex="\int_{0}^{L} x^2 \, dx = ?" />
                             <p className="fw-bold mt-4">Calculus</p>

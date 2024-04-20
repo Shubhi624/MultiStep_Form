@@ -16,12 +16,11 @@ const nav = useNavigate();
                 <div className='mb-5 d-flex justify-content-center align-items-center'>
                     <TailSpin color='yellow' strokeWidth='5px'/>
                 </div>
-                <h1 className='mb-4 fs-3 fw-bold text-center'>
+                <h1 className='head mb-4 fs-3 fw-bold text-center'>
                     Finding learning path recommendations for you based on your responses
                 </h1>
             </div>
         </div>
     )
 }
-
 export default Sixth

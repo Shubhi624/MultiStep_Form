@@ -21,10 +21,10 @@ const Third = () => {
                 </div>
             </div>
             <div className="container">
-                <div className='d-flex m-5 p-5' >
-                    <img src={image} width='400px' />
+                <div className='IHP d-flex m-5 p-5'>
+                    <img className='imgsize' src={image} width='400px' />
                     <div className='d-flex flex-column justify-content-center pe-5 me-5'>
-                        <h1 className='mb-4 fs-1 fw-bold'>You're in the right place</h1>
+                        <h1 className='content mb-4 fs-1 fw-bold'>You're in the right place</h1>
                         <p className='fs-5'>Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math, science, and computer science.</p>
                     </div>
                 </div>

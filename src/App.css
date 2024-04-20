@@ -1,8 +1,66 @@
 .star {
-    color: #ddd; /* Default color for empty star */
+  color: #ddd; /* Default color for empty star */
+}
+
+.star-filled {
+  color: gold; /* Color for filled star */
+}
+.bsize {
+  width: 70%;
+}
+.w-rem{
+  max-width: 30rem;
+}
+@media (min-width: 280px) and (max-width: 1200px) {
+  .ProgressBar {
+    width: 75%;
   }
-  
-  .star-filled {
-    color: gold; /* Color for filled star */
+  .container {
+    align-items: center;
+    text-align: center; /* Center align content */
   }
-  
+  .container .d-flex.justify-content-center {
+    margin-top: 20px; /* Increase space above continue button */
+  }
+  .container h1 {
+    text-align: center; /* Center align heading */
+  }
+  .icon {
+    height: 40px;
+  }
+  .head {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 280px) and (max-width: 993px) {
+  .imgsize {
+    display: flex;
+    margin: auto;
+    height: 200px;
+  }
+  .content {
+    display: flex;
+    text-align: center !important; 
+    justify-content: center;
+  }
+  .IHP {
+    display: inline !important;
+  }
+  .responsive-card {
+    width: 100% !important; /* Set card width to 100% for smaller screens */
+  }
+}
+@media (min-width: 280px) and (max-width: 500px){
+  .HPI{
+    flex-direction: column;
+    width: 70%;
+  }
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+}
