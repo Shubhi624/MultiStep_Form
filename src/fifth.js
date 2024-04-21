@@ -24,14 +24,14 @@ const Fifth = () => {
         </div>
       </div>
       <div className="container fifth-container">
-        <div className='IHP d-flex m-lg-5 p-lg-5'>
+        <div className='IHP d-flex m-lg-5 p-lg-5 justify-content-center-md'>
           <img className='imgsize' src={image} alt="Page 5" width='400px' />
-        </div>
-        <div className='d-flex flex-column justify-content-center pe-lg-5 me-lg-5 ms-lg-2'>
-          <h1 className='content mb-4 fs-1 fw-bold'>You're on your way!</h1>
-          <StarRatings changeRating={setRating} starDimension='30px' rating={rating} starRatedColor='yellow' starHoverColor='yellow' starSpacing='3px' />
-          <p className='fs-5 mb-4 fst-italic mt-2'>"Through its engaging and well-structured courses, Brilliant has taught me mathematical concepts that I previously struggled to understand. I now feel confident approaching both technical job interviews and real-world problem-solving situations."</p>
-          <span className='fs-5'>-Jacob S.</span>
+          <div className='d-flex flex-column justify-content-center pe-lg-5 me-lg-5 ms-lg-2'>
+            <h1 className='content mb-4 fs-1 fw-bold'>You're on your way!</h1>
+            <StarRatings changeRating={setRating} starDimension='30px' rating={rating} starRatedColor='yellow' starHoverColor='yellow' starSpacing='3px' />
+            <p className='fs-5 mb-4 fst-italic mt-2'>"Through its engaging and well-structured courses, Brilliant has taught me mathematical concepts that I previously struggled to understand. I now feel confident approaching both technical job interviews and real-world problem-solving situations."</p>
+            <span className='fs-5'>-Jacob S.</span>
+          </div>
         </div>
         <div className='d-flex justify-content-center'>
           <Link to={'/step6'}>

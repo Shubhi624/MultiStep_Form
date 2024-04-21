@@ -11,7 +11,7 @@ const Seventh = () => {
         <div className="container d-flex flex-column align-items-center mt-lg-5 pt-5">
             <h1 className='mb-4 mt-5 pt-5 fs-1 fw-bold'>Learning paths based on your answers</h1>
             <p className='mb-4'>Choose one to get started. You can switch anytime.</p>
-            <div className="d-flex flex-wrap">
+            <div className="d-flex flex-wrap justify-content-center">
                 <div className={`w-rem py-3 m-2 card ${select ===1? 'border-primary':''} responsive-card `} style={{cursor: 'pointer' }} onClick={() => handleSelect(1)}
                 >
                     <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning">MOST POPULAR</span>
