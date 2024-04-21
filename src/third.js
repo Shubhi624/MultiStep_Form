@@ -14,19 +14,19 @@ const Third = () => {
         <div className='mt-4 d-flex flex-column' onMouseMove={handleClick}>
             <div className='d-flex justify-content-center'>
                 <Link to='/step2'>
-                    <BsChevronLeft size={20} style={{ color: "black"}} />
+                    <BsChevronLeft size={20} style={{ color: "black" }} />
                 </Link>
-                <div className='w-75 d-flex flex-column justify-content-center' style={{height:"30px"}}>
+                <div className='w-75 d-flex flex-column justify-content-center' style={{ height: "30px" }}>
                     <ProgressBar completed={progress} bgColor='green' isLabelVisible={false} height='5px' />
                 </div>
             </div>
-            <div className="container">
-                <div className='IHP d-flex m-5 p-5'>
+            <div className="container fifth-container">
+                <div className='IHP d-flex m-lg-5 p-lg-5 bg-danger'>
                     <img className='imgsize' src={image} width='400px' />
-                    <div className='d-flex flex-column justify-content-center pe-5 me-5'>
-                        <h1 className='content mb-4 fs-1 fw-bold'>You're in the right place</h1>
-                        <p className='fs-5'>Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math, science, and computer science.</p>
-                    </div>
+                </div>
+                <div className='d-flex flex-column justify-content-center pe-lg-5 me-lg-5'>
+                    <h1 className='content mb-4 fs-1 fw-bold'>You're in the right place</h1>
+                    <p className='fs-5'>Brilliant gets you hands-on to help improve your professional skills and knowledge. You'll interact with concepts and solve fun problems in math, science, and computer science.</p>
                 </div>
                 <div className='d-flex justify-content-center'>
                     <Link to='/step4'>

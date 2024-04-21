@@ -17,13 +17,13 @@
   }
   .container {
     align-items: center;
-    text-align: center; /* Center align content */
+    text-align: center;
   }
   .container .d-flex.justify-content-center {
-    margin-top: 20px; /* Increase space above continue button */
+    margin-top: 20px;
   }
   .container h1 {
-    text-align: center; /* Center align heading */
+    text-align: center;
   }
   .icon {
     height: 40px;
@@ -38,6 +38,7 @@
     display: flex;
     margin: auto;
     height: 200px;
+    width: 250px;
   }
   .content {
     display: flex;
@@ -48,13 +49,19 @@
     display: inline !important;
   }
   .responsive-card {
-    width: 100% !important; /* Set card width to 100% for smaller screens */
+    width: 100% !important;
+  }
+  .fifth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (min-width: 280px) and (max-width: 500px){
   .HPI{
     flex-direction: column;
-    width: 70%;
+    /* width: 70%; */
   }
   .center-content {
     display: flex;

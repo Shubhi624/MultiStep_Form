@@ -8,7 +8,7 @@ const Seventh = () => {
         setSelect(value);
     }
     return (
-        <div className="container d-flex flex-column align-items-center mt-5 pt-5">
+        <div className="container d-flex flex-column align-items-center mt-lg-5 pt-5">
             <h1 className='mb-4 mt-5 pt-5 fs-1 fw-bold'>Learning paths based on your answers</h1>
             <p className='mb-4'>Choose one to get started. You can switch anytime.</p>
             <div className="d-flex flex-wrap">
